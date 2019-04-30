@@ -1,0 +1,411 @@
+/*
+Theme Name: Shenandoah Issue 13 (67.1)
+Description: A Child Theme of Twenty Ten for the Shenandoah Literary Journal -- Issue 67.1
+Author: Jim Groom
+Version: 1.0
+Template: twentyten
+*/
+
+@import url('../twentyten/style.css');
+
+body {
+    background: none repeat scroll 0 0;
+    font-family: Georgia, Palatino;
+}
+
+#wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+    }
+
+#container {
+    float: right;
+    margin: 0 20px 0 -350px;
+    width: 100%;
+}
+
+body.home #container {
+    margin-left: -450px;
+    
+    }
+
+body.single #container, body.category #container {
+    margin-left: 20px;}
+
+body.home #primary {
+    width: 429px;
+    }
+
+#primary, #secondary {
+    float: right;
+    overflow: hidden;
+    width: 309px;
+}
+
+#content {
+    margin: 0 20px 0 350px;
+    padding-left: 20px;
+}
+
+body.single #content, body.category #content {
+    margin-left: 20px;
+    }
+
+body.home #content {
+    margin-left: 429px;
+    }
+
+
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
+    color: #000000;
+    line-height: 1.5em;
+    margin: 0px;
+}
+
+#content, #content input, #content textarea {
+    color: #333333;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h1#site-title, div#site-title {
+    font-size: 26px;
+    /*line-height: 0px;*/
+    margin-bottom: 0px;
+    }
+
+h1#site-title a { 
+    color: #8e1b1b;
+    
+    }
+    
+div#main-site-menu {
+    width: 940px;
+    margin: 10px auto 0 auto;
+    }
+
+h3#main-link {
+    background: #fff;
+    border-top: 1px solid #8e1b1b;
+    border-right:1px solid #8e1b1b;
+    border-left:1px solid #8e1b1b;
+    -webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+    padding: 5px 0px 0px 0px;
+    line-height: normal !important;
+    float: right;
+    }
+    
+h3#main-link a {
+     color: #000;
+     text-decoration: none;
+     margin: 0px 20px;
+     font-size: 14px;
+     line-height: 0px !important;
+     }
+
+body {
+     line-height: normal; 
+     }
+
+#primary h2 {
+  border-bottom: 1px solid #666;
+  margin-right: 25px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  text-transform:uppercase;
+  }
+
+#primary h3 {
+     background: #efefef;
+     margin: 0px 0px 0px 5px;
+     font-variant: small-caps;
+     font-size: 16px;
+     border-bottom: 1px solid #8e1b1b;
+     padding: 5px 0px 3px 10px;
+     }
+
+#primary h3 a {
+     color: #000;
+     }
+
+#primary h3 a:hover {
+     text-decoration: none;
+     }
+
+#accordion {
+     margin-right: 25px;
+     margin-bottom: 15px;}
+     
+
+#accordion div { 
+     margin: 0px 0px 0px 10px;
+     background: #8e1b1b;
+     color: #fff;
+     padding: 5px 10px;
+     }
+
+#accordion div ul {
+     }
+
+#accordion div ul li {
+     list-style: circle;
+     margin-left: 13px;
+     margin-bottom: 10px;
+     }
+
+#accordion div ul li a {
+     color: #fff;
+     }
+
+body.single h1 {
+     border-bottom: 1px solid #666;
+     margin-right: 25px !important;
+     }
+     
+body.single #accordion  {
+     border-left: 0px;
+     background: #8e1b1b;
+     border-left: 1px single #CC7F5E;
+     border-right: 1px single #CC7F5E;
+     border-bottom: 1px single #CC7F5E;
+     -webkit-border-bottom-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+     }
+     
+body.single #accordion h3 {
+     color: #fff;
+     padding: 4px 10px;
+     }
+
+body.single #accordion h3 a, body.single #accordion h3 a:hover, body.single #accordion h3 a:visited {
+     color: #fff;
+     font-weight: bold;
+     text-decoration: none;
+     }
+
+body.single #accordion div {
+     -webkit-border-bottom-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+body.single #accordion div img {
+     float: left;
+     background: #efefef;
+     padding: 3px;
+     border: 1px solid #666;
+     }
+
+body.single #accordion div p {
+     margin-left: 10px;
+     font-size: 17px;
+     padding: 0 15px;
+     }
+     
+
+.clear {
+     clear: both;
+     }
+
+#accordion2 div {
+    background: #fff;
+    padding: 5px 0px 0px 0px;
+    line-height: normal !important;s
+    }
+
+#accordion2 div a {
+	color: #000;
+     text-decoration: none;
+     font-size: 16px;
+     line-height: 0px !important;
+     }
+
+#access .menu-header ul li{
+     background: #efefef;
+     }
+
+#access .menu-header ul li a {
+     color: #000 !important;
+     line-height: 38px !important;
+     }
+
+#access .menu-header ul li a:hover {
+      background: #efefef;
+      }
+
+#access .menu-header ul ul li a {
+      font-size: 16px;
+      line-height: .6em !important;
+      background: #efefef;
+      text-transform: none !important;
+      }
+
+#access a {
+	color: #aaa;
+	display: block;
+	line-height: 38px;
+	padding: 0 15px;
+	text-decoration: none;
+        }
+
+#header {
+     padding-top: 10px !important;
+     }
+     
+#header #site-title {
+     padding-left: 15px !important;
+     }
+
+#site-title a {
+     font-weight: normal;
+     }
+
+#access li:hover > a, #access ul ul :hover > a {
+     background: #efefef;
+     }
+
+
+
+.current-section {
+background: #fff url(../../../../wp-content/uploads/2011/02/woodpecker_turned.png) 2px 10px no-repeat !important;
+    padding-left: 40px !important;
+    }
+
+blockquote {
+	font-style: italic;
+	padding: 0 3em;
+}
+
+.single .hentry {
+	margin: 0 36px;
+}
+
+.indented
+   {
+   padding-left: 200px;
+   }
+   
+.author_name {
+	font-weight: bold;
+	}
+
+body, input, textarea {
+    color: #666666;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+#content .entry-title {
+    color: #000000;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.3em;
+    margin-bottom: 0;
+}
+
+#content .entry-content {
+    font-size:18px;	
+}
+
+.category-author {
+    color: #888888;
+    font-size: 19px;
+}
+
+.category-title {
+    color: #000000;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 0 36px;
+    padding: 0 0 10px 0;
+}
+
+#author {
+    margin: 0 75px 0 75px;
+    padding-left: 20px;
+}
+
+#entry-author-info #author-description {
+    float: none;
+    margin: 0 0 0 10px;
+}
+
+#entry-author-info {
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.page-title span {
+    color: #333333;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+#entry-author-info #author-avatar{
+
+	height: 100%;
+	}
+
+div.menu-header ul li {
+	text-transform: uppercase;
+	}
+
+#accordion div ul li a {
+	font-size:18px;
+}
+
+
+div.quotes {
+ margin: 0 10px;
+ text-align: left;
+ display: block;
+ font-weight: normal !important;
+ -webkit-border--radius: 10px;
+ -moz-border-radius: 10px;
+ border-radius: 10px;
+ padding: 5px 5px;
+ border: 1px solid #000;
+ background: #dadcd6;
+}
+
+div#primary div#featured-pieces {
+   background: #fff;
+   padding: 3px 5px;
+   margin-bottom: 5px;
+   margin-right: 15px;
+   margin-left: 15px;
+   margin-top: 15px;
+   border: 0px solid #999;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+#colophon {
+ border-top: 0px solid #000;
+ margin-top: -4px;
+ overflow: hidden;
+ padding: 18px 0;
+}
+
+#content pre {
+ background: #fff;
+ color: #222;
+ font-size: 18px;
+ line-height: 30px;
+ font-family: Georgia, Palatino;
+}
