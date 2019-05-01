@@ -16,4 +16,4 @@ Once you click on the target 'index.html' file, search (Ctrl+F) and paste "entry
 
 **!Notice: The coding team is aware that the file hierarchy differs in several issues. Some of the text content may be in a subfolder of the year, e.g.:**
 
-shenandoahliterary.org  /  [Vol# | Issue# 1/2]  /  **[YEAR]** /  title of work  /  index.html
+shenandoahliterary.org  /  [Vol# | Issue# 1/2]  /  **[YEAR]  /  [Month]** /  title of work  /  index.html
